@@ -5,45 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu" class="center">
         <li>
             <a href="index.html"> Sobre </a>
         </li>
         <li>
             <a href="contato.html"> Contato </a>
         </li>
-        <li>
-            <a href="redessociais.html"> Redes Sociais </a>
-        </li>
     </ul>
-    <h1>Entre em contato comigo</h1>
-    <p>Escreva para a Júlia, sua opinião/dicas/mensagens de carinho é muito importante para mim.</p>
-    <form>
-        <label for="nome">Nome: </label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail: </label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto: </label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <h1 class="center">Entre em contato comigo</h1>
+    <p class="center">Escreva para a Júlia, sua opinião/dicas/mensagens de carinho é muito importante para mim.</p>
 
-    <h2>Endereço:</h2>
-    <p>Osasco - SP</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117055.10323249792!2d-46.854476376568286!3d-23.533510328333776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5583db0fdfef%3A0x90ee3c33b723aa9c!2sOsasco%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1631813765309!5m2!1spt-BR!2sbr"
-    width="400"
-    height="300"
-    style="border:0;"
-    allowfullscreen=""
-    loading="lazy"></iframe>
+    <div class="container mb-50">
+        <div>
+        <form>
+            <div class="flex">
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome">
+            </div>
+            <div class="flex">
+                <label for="email">E-mail: </label>
+                <input type="email" id="email">
+            </div>
+            <div class="flex">
+                <label for="assunto">Assunto: </label>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+            </div>
+            <div class="flex">
+                <button>Enviar</button>
+            </div>
+        </form>
+    </div>
+    <div class="ml-50">
+        <h2>Endereço:</h2>
+        <p>Osasco - SP</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117055.10323249792!2d-46.854476376568286!3d-23.533510328333776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5583db0fdfef%3A0x90ee3c33b723aa9c!2sOsasco%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1631813765309!5m2!1spt-BR!2sbr"
+        width="500"
+        height="500"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        aria-hidden="false"
+        tabindex="0"></iframe>
+    </div>
+
+    <hr />
+    <footer>
+      <div class="container">
+        <a href="https://www.facebook.com/julia.barao/" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="assets/img/facebook.png"
+            alt="Logo do Facebook"
+          />
+        </a>
+
+        <a href="https://www.linkedin.com/in/julia-rafaela-bar%C3%A3o-santos-729b32168" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="assets/img/linkedin.jpg"
+            alt="Logo do Linkedin"
+          />
+        </a>
+
+        <a href="https://github.com/juliabarao" target="_blank">
+            <img
+              class="tm-social p-30"
+              src="assets/img/github.jpg"
+              alt="Logo do GitHub"
+            />
+          </a>
+
+        <a href="https://instagram.com/juliabarao?utm_medium=copy_link" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="assets/img/instagram.png"
+            alt="Logo do Intagram"
+          />
+        </a>
+      </div>
+
+      <p class="center">Todos os direitos reservados: Júlia Barão &copy</p>
+    </footer>
 
 
 </body>

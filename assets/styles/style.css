@@ -1,0 +1,110 @@
+body{
+    background-color: papayawhip;
+    color: gray;
+}
+
+/*Estilos da página index.html*/
+
+.center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+    text-align: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom:3px solid gray;
+    background-color: gray;
+}
+
+ul{
+    padding: 0;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: pink;
+}
+
+#menu li a:hover{
+    color: papayawhip;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+/*Estilos da página contato.html*/
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.250rem;
+    color: grey;
+}
+  
+.flex button{
+    width: 30%;
+    align-self: center;
+    padding: 15px 0;
+    color: palevioletred;
+}
+
+input, textarea {
+    padding: 10px;
+    color: palevioletred;;
+    font-weight: bold;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+@media (max-width: 650px) {
+    body{
+      background: papayawhip;
+      color: grey;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 90%;
+    }
+  
+    .flex {
+      width: 80%;
+      margin: 0 auto
+    }
+}
+  
+@media (max-width: 400px){
+    body{
+      background: pink;
+      color: papayawhip,
+    }
+}
